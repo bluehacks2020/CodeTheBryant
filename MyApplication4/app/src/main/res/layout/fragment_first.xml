@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:id="@+id/linear1">
+      <ScrollView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+
+          <LinearLayout
+              android:background="@drawable/gradient"
+              android:layout_gravity="center|top"
+              android:gravity="center|top"
+              android:layout_width="409dp"
+              android:layout_height="729dp"
+              android:layout_marginStart="1dp"
+              android:layout_marginTop="1dp"
+              android:layout_marginEnd="1dp"
+              android:layout_marginBottom="1dp"
+              android:orientation="vertical"
+             >
+
+              <TextView
+
+                  android:id="@+id/textView3"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="25dp"
+                  android:textSize="30sp"
+                  android:textStyle="bold"
+                  android:textColor="#fff"
+                  android:text="Instruments" />
+              <LinearLayout
+                  android:gravity="center"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="horizontal">
+                  <ImageView
+                      android:layout_margin="10dp"
+                      android:background="@color/colorPrimary"
+                      android:id="@+id/imageViewKumintang"
+                      android:layout_width="175dp"
+                      android:layout_height="175dp"
+                      android:src="@drawable/kulintang"
+                      android:clickable="true"
+                      android:focusable="true"
+                      />
+
+                  <ImageView
+                      android:src="@drawable/dabakan"
+                      android:layout_margin="10dp"
+                      android:background="@color/colorPrimary"
+                      android:id="@+id/imageViewDabakan"
+                      android:clickable="true"
+                      android:focusable="true"
+                      android:layout_width="175dp"
+                      android:layout_height="175dp"
+                      />
+
+              </LinearLayout>
+
+              <LinearLayout
+                  android:gravity="center"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+                  <TextView
+                      android:layout_marginRight="145dp"
+                      android:id="@+id/textViewKulintang"
+                      android:textColor="#fff"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:clickable="true"
+                      android:focusable="true"
+                      android:text="Kulintang" />
+                  <TextView
+                      android:id="@+id/textViewDabakan"
+                      android:textColor="#fff"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Dabakan" />
+
+              </LinearLayout>
+
+
+              <LinearLayout
+                  android:gravity="center"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="horizontal">
+                  <ImageView
+                      android:src="@drawable/babandil"
+                      android:layout_margin="10dp"
+                      android:background="@color/colorPrimary"
+                      android:id="@+id/imageViewBabandil"
+                      android:clickable="true"
+                      android:focusable="true"
+                      android:layout_width="175dp"
+                      android:layout_height="175dp"
+                      />
+                  <ImageView
+                      android:src="@drawable/kubing"
+                      android:layout_margin="10dp"
+                      android:background="@color/colorPrimary"
+                      android:id="@+id/imageViewKubing"
+                      android:layout_width="175dp"
+                      android:layout_height="175dp"
+                      />
+
+              </LinearLayout>
+              <LinearLayout
+                  android:gravity="center"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+                  <TextView
+                      android:layout_marginRight="145dp"
+                      android:id="@+id/textViewBabandil"
+                      android:textColor="#fff"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+
+                      android:text="Babandil" />
+                  <TextView
+                      android:id="@+id/textViewKubing"
+                      android:textColor="#fff"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Kubing" />
+
+              </LinearLayout>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:gravity="center"
+                  android:orientation="horizontal">
+
+                  <ImageView
+                      android:src="@drawable/bunkaka"
+                      android:id="@+id/imageView5"
+                      android:background="@color/colorPrimary"
+                      android:layout_width="175dp"
+                      android:layout_height="175dp"
+                      android:layout_margin="10dp"
+                      />
+
+                  <ImageView
+                      android:src="@drawable/kalutang"
+                      android:id="@+id/imageView6"
+                      android:background="@color/colorPrimary"
+                      android:layout_width="175dp"
+                      android:layout_height="175dp"
+                      android:layout_margin="10dp"
+                      />
+
+              </LinearLayout>
+
+              <LinearLayout
+                  android:gravity="center"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+                  <TextView
+                      android:layout_marginRight="145dp"
+                      android:id="@+id/textViewBunkaka"
+                      android:textColor="#fff"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Bunkaka" />
+                  <TextView
+                      android:id="@+id/textViewKalutang"
+                      android:textColor="#fff"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Luntang" />
+
+              </LinearLayout>
+              <LinearLayout
+                  android:gravity="center"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="horizontal">
+                  <ImageView
+                      android:layout_margin="10dp"
+                      android:background="@color/colorPrimary"
+                      android:id="@+id/imageViewSulibaw"
+                      android:src="@drawable/sulibaw"
+                      android:layout_width="175dp"
+                      android:layout_height="175dp"
+
+                      />
+                  <ImageView
+                      android:layout_margin="10dp"
+                      android:background="@color/colorPrimary"
+                      android:id="@+id/imageView7"
+                      android:layout_width="175dp"
+                      android:src="@drawable/kudyapi"
+                      android:layout_height="175dp"
+                      />
+
+              </LinearLayout>
+              <LinearLayout
+                  android:gravity="center"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+                  <TextView
+                      android:layout_marginRight="145dp"
+                      android:id="@+id/textView7"
+                      android:textColor="#fff"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Sulibaw" />
+                  <TextView
+                      android:id="@+id/textView8"
+                      android:textColor="#fff"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Kudyapi" />
+
+              </LinearLayout>
+              <LinearLayout
+                  android:gravity="center"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="horizontal">
+                  <ImageView
+                      android:layout_margin="10dp"
+                      android:id="@+id/imageViewA"
+                      android:src="@drawable/tongali"
+                      android:layout_width="175dp"
+                      android:layout_height="175dp"
+                      android:background="@color/colorPrimary"/>
+                  <ImageView
+                      android:layout_margin="10dp"
+                      android:id="@+id/imageViewB"
+                      android:src="@drawable/gambal"
+                      android:layout_width="175dp"
+                      android:layout_height="175dp"
+                      android:background="@color/colorPrimary" />
+
+              </LinearLayout>
+              <LinearLayout
+                  android:gravity="center"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+                  <TextView
+                      android:layout_marginRight="145dp"
+                      android:id="@+id/textViewA"
+                      android:textColor="#fff"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Tongali" />
+                  <TextView
+                      android:id="@+id/textViewB"
+                      android:textColor="#fff"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Gambal" />
+
+              </LinearLayout>
+              <LinearLayout
+                  android:gravity="center"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="horizontal">
+                  <ImageView
+                      android:layout_margin="10dp"
+                      android:id="@+id/imageViewC"
+                      android:layout_width="175dp"
+                      android:layout_height="175dp"
+                      android:background="@color/colorPrimary" />
+                  <ImageView
+                      android:layout_margin="10dp"
+                      android:id="@+id/imageViewD"
+                      android:layout_width="175dp"
+                      android:layout_height="175dp"
+                      android:background="@color/colorPrimary"/>
+
+              </LinearLayout>
+              <LinearLayout
+                  android:gravity="center"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+                  <TextView
+                      android:layout_marginRight="145dp"
+                      android:textColor="#fff"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="To be updated" />
+                  <TextView
+                      android:textColor="#fff"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="To be updated" />
+
+              </LinearLayout>
+
+          </LinearLayout>
+
+      </ScrollView>
+  </LinearLayout>
+
+</FrameLayout>

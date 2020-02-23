@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient2"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".kulintangActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_marginTop="30dp"
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/kulintang" />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:id="@+id/textView4"
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A Filipino made instrument, the natives of Meranao, Tausug, and Maguindanao take a lot of pride and joy with these. The Kulintang is a set of 5 to 9 pieces of gongs that vary in size and sound. They’re aligned horizontally next to each other, usually on a rack, and are arranged in order of their pitch. The gong with the lowest pitch is placed on the players left side and two wooden sticks are used to hit the gongs to make sounds. " />
+
+            <TextView
+                android:layout_marginRight="20dp"
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="textEnd"
+                android:text="Description"
+                android:textColor="#fff"
+                android:textSize="24sp" />
+
+            <TextView
+
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The gongs weigh roughly from two pounds to three pounds each, and have dimensions of 6 to 10 inches for their diameters and 3 to 5 inches for their height. Traditionally they were made from bronze but due to the disruption and loss of trade routes between the islands of Borneo and Mindanao during World War II, resulting in loss of access to necessary metal ores, and the subsequent post-war use of scrap metal, brass gongs with shorter decaying tones are now commonplace.
+The kulintang frame is known as an " ></TextView>
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textColor="#fff"
+                android:textSize="24sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="History" />
+
+            <TextView
+                android:layout_margin="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:text="Kulintang music is considered an ancient
+        tradition that predates the influences of Hinduism, Buddhism,
+         Islam, Christianity, and the West. In the Philippines, it represents
+          the highest form of gong music attained
+           Filipinos and in North Maluku, it is said to have existed for centuries."/>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
